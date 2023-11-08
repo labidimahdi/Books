@@ -5,7 +5,7 @@ import Backbutton from "../components/Backbutton";
 import Spinner from "../components/Spinner";
 
 const ShowBook = () => {
-  const [Book, setBook] = useState({});
+  const [book, setBook] = useState({});
   const [loading, setLoading] = useState(false);
   const { id } = useParams();
 
